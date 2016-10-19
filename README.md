@@ -1,34 +1,60 @@
 # Lending Club  
 
-## A pakcage built to access the Lending Club API
+## A package built to access the Lending Club API  
+This package helps you make transactions and manage the funds in your Lending Club account. 
+The functions can be lumped into 3 groups: Account Management, Transferring Funds, and 
+Transacting Loans.
 
-### List of Functions  
-- AddFunds
+
+#### List of Functions  
+
+Account Management  
 - AccountSummary
 - AvailableCash
+- PortfoliosOwned
 - CreatePortfolio
 - DetailNotesOwned
-- ListedLoans
 - NotesOwned
+
+Transfer Funds
 - PendingTransfers
-- PortfoliosOwned
-- TransferFunds
+- AddFunds
 - WithdrawFunds
 - CancelTransfers
+
+Transacting Loans
+- ListedLoans
+- SubmitOrder
+- FolioListing
 - FolioSell
 - FolioBuy
-- SubmitOrder
 
 
-## A Brief How-To 
+## Installation
+You can install the stable version on CRAN:
+```
+install.packages("LendingClub")
+library(LendingClub)
+```
+
+Or use devtools to install the development version from Github:
+```
+devtools::install_github("kuhnrl30/LendingClub")
+library(LendingClub)
+```
+
+## Usage 
 To use this package, you'll first need to create a credential from your account 
-number and API key. This credential will be saved to the global environment and 
-referenced by every other function. Use the MakeCredential() function and pass 
+number and API key. This credential can be saved to the global environment and 
+the other functions will detect it. Use the MakeCredential() function and pass 
 it your investorID number and your API key. You can find the InvestorID on your 
 account summary page and the API key on the Account Settings page. 
 
 ```
-MakeCredential(investorID, APIkey)
+LC_CRED<- MakeCredential(investorID, APIkey)
 ListedLoans()
+AccountSummary()
 ```
 
+## License
+This package is free and open source software, licensed under MIT.
