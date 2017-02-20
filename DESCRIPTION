@@ -1,8 +1,8 @@
 Package: LendingClub
 Type: Package
-Date: 2016-10-19
+Date: 2017-02-20
 Title: A Lending Club API Wrapper
-Version: 1.0.1
+Version: 1.0.2
 Author: Ryan Kuhn
 Maintainer: Ryan Kuhn <kuhnrl30@gmail.com>
 URL: https://github.com/kuhnrl30/LendingClub
@@ -20,6 +20,6 @@ VignetteBuilder: knitr
 RoxygenNote: 5.0.1
 Imports: dplyr, httr, jsonlite, utils
 NeedsCompilation: no
-Packaged: 2016-12-11 22:18:01 UTC; Ryan
+Packaged: 2017-02-19 06:43:08 UTC; Ryan
 Repository: CRAN
-Date/Publication: 2016-12-12 00:48:18
+Date/Publication: 2017-02-20 10:16:42

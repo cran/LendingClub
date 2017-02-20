@@ -1,4 +1,4 @@
-3c7a3e7e98ffe5272d3f3a5c256e0ac3 *DESCRIPTION
+b96d580e350ddce1d23331c1170ba9b7 *DESCRIPTION
 a6382b4fb56896ced997693c0cd74a86 *LICENSE
 6516e482ab7309cd17fd40ad349f6690 *NAMESPACE
 07f2bde5c4dc7ea4b957dec7708f1ac5 *R/AccountSummary.R
@@ -6,7 +6,7 @@ dcae1df8c1e47690e722592fb9f413f6 *R/AddFunds.R
 7ceefd82738d20e651ba9d359555ac4c *R/AvailableCash.R
 2e8bd8afe6eddb925e4a67082148d4a5 *R/CancelTransfer.R
 a2e4c1b79ba560d76f7b70f9301fa869 *R/CheckCred.R
-e8445a476d9329f4733ea2048bf99f60 *R/CleanData.R
+77d4d7e589f1765117792304c086e83f *R/CleanData.R
 e281cf722d7d95a99d0b01dadc0f91ca *R/CreatePortfolio.R
 0217cd7ae5251a4e286d58dddee2d02d *R/DetailedNotesOwned.R
 5cfd9b0890d481f80e2c446d0c797d96 *R/FolioBuy.R
@@ -24,11 +24,11 @@ b0010c0cc96ebb6d0c62416862a7fa08 *R/MakeURL.R
 3e6fe91be30f1ffd8c32f0560b31e9b7 *R/PortfoliosOwned.R
 fd01f8470c6e63052964069a555702b9 *R/Print.R
 fde870b9835893e7cbe866b1481db3d3 *R/ResponseHandler.R
-101e6db3ed320206dda66483d77bc772 *R/SubmitOrder.R
+8fe38ec3e61bb2bf5e74d97163b9c12b *R/SubmitOrder.R
 add216b855c1d95d0d15c01873a6de1c *R/WithdrawFunds.R
 bb4b1651c9b91a231616526eb3c8acf2 *R/valiDate.R
-a099072cfd9c542341000880b8ccf96a *README.md
-00c48312e775a595e3601e22091ad8c8 *build/vignette.rds
+622ba22946667d342a1c932ed172c6b0 *README.md
+96b2190a184e8b546f2673e916eefae2 *build/vignette.rds
 ebc15a546af75b77adbf6a571e83e328 *inst/doc/LendingClub.R
 5440d9642db82bd693abaa92ee2cd582 *inst/doc/LendingClub.Rmd
 e0953ab2ab3ae4b9223777cb3c632c16 *inst/doc/LendingClub.html
