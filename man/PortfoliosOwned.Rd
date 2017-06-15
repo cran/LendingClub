@@ -2,7 +2,7 @@
 % Please edit documentation in R/PortfoliosOwned.R
 \name{PortfoliosOwned}
 \alias{PortfoliosOwned}
-\title{List investor's portfolios}
+\title{Listing of investor's portfolios}
 \usage{
 PortfoliosOwned(LC_CRED = NULL)
 }
@@ -12,4 +12,3 @@ PortfoliosOwned(LC_CRED = NULL)
 \description{
 Provides a dataframe of all portfolios owned by the investor.
 }
-

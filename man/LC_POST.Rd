@@ -14,8 +14,7 @@ LC_POST(postURL, params, auth)
 \item{auth}{API key}
 }
 \description{
-A wrapper for POST which passes the data to the L/C server. Data
+A wrapper for POST which passes the data to the LC server. Data
 is encoded as json.
 }
 \keyword{internal}
-
