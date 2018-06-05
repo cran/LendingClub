@@ -19,7 +19,10 @@ portfolio.
 }
 \examples{
 \dontrun{
-LC_CRED<- MakeCredential(InvestorID, APIKey)
+LC_CRED<- lc_MakeCredential(InvestorID, APIKey)
 AccountSummary()}
 
+}
+\seealso{
+\code{\link{LendingClub-deprecated}}
 }

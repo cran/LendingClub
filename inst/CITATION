@@ -3,5 +3,6 @@ citHeader("To cite LendingClub in publications, please use:")
 bibentry(bibtype = "Manual",
          title = "LendingClub: A Lending Club API Wrapper.",
          author = person("Ryan", "Kuhn"),
-         year = "2018",
+         year = 2018,
+         note = "R package version 1.0.4",
          url = "https://CRAN.R-project.org/package=LendingClub" )

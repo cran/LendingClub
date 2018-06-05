@@ -2,10 +2,26 @@
 % Please edit documentation in R/FolioListing.R
 \name{FolioListing}
 \alias{FolioListing}
-\title{Loans listed on Folio marketplace}
+\title{Notes listed on Folio marketplace}
 \usage{
-FolioListing()
+FolioListing(updatedSince = NULL, LC_CRED = NULL)
+}
+\arguments{
+\item{updatedSince}{filter listings to include only notes that were modified/created within the last X minutes.}
+
+\item{LC_CRED}{Credential object having class LendingClub_credential. This object can be created using the \code{lc_MakeCredential()} function. You can pass the object directly as an argument to the function or alternatively, it can be read from the global environment if it was stored as "LC_CRED".}
+}
+\value{
+A data.frame.  If the entire current listings are returned, the data frame will have 22 columns.  If a subset of the listings are returned, via the updatedSince argument, then the returned data frame will have 21 columns.
 }
 \description{
-Returns a dataframe of loans listed on the secondary market.
+Returns a dataframe of notes listed on the secondary market.
+}
+\details{
+This function can return the complete listing of notes on the secondary market or just
+those that have been recently updated.  The complete listing of loans may take a significant
+amount of time to download depending on the users internet connection speed.
+
+Notes listed on the market automatically expire in 7 days.  The seller may reset the expiration
+date by changing the price on the note.
 }

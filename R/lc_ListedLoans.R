@@ -12,9 +12,9 @@
 #' element is the date of the request and second is a dataframe of the
 #' listed loans.
 #'
-#' @inheritParams AccountSummary
+#' @inheritParams lc_AccountSummary
 #' @export
-ListedLoans<- function(showAll=TRUE, LC_CRED=NULL){
+lc_ListedLoans<- function(showAll=TRUE, LC_CRED=NULL){
 
     LC_CRED<-CheckCred(LC_CRED)
 

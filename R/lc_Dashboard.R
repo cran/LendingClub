@@ -9,7 +9,15 @@
 #' @param ... Arguments passed on to rmarkdown::render
 #' @export
 
-Dashboard<- function(filename = "Dashboard.html", out_dir= getwd(), ID= LC_CRED$investorID, key= LC_CRED$key, ...){
+lc_Dashboard<- function(filename = "Dashboard.html", out_dir= getwd(), ID= LC_CRED$investorID, key= LC_CRED$key, ...){
+    
+    list.of.packages <- c("ggplot2", "knitr", "rmarkdown", "dplyr")
+    new.packages <- list.of.packages[!(list.of.packages %in% utils::installed.packages()[, "Package"])]
+    if(length(new.packages)) {
+        message("installing required packages")
+        utils::install.packages(new.packages)
+        }
+    
     
     fpath <- system.file("Dashboard.Rmd", package="LendingClub")
     
